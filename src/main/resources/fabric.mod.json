@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "chocolate-utils",
+  "version": "${version}",
+  "name": "Chocolate Utils",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/chocolate-utils/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.potatopresident.chocolateutils.ChocolateUtils"
+    ]
+  },
+  "mixins": [
+    "chocolate-utils.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.7",
+    "fabric": "*",
+    "minecraft": "1.17.1"
+  }
+}
