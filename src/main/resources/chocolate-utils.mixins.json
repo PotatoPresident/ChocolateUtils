@@ -4,6 +4,7 @@
   "package": "io.github.potatopresident.chocolateutils.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
+    "PlayerEntityMixin",
     "ServerPlayerEntityMixin"
   ],
   "client": [
