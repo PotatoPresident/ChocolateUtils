@@ -4,6 +4,8 @@
   "package": "io.github.potatopresident.chocolateutils.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
+    "MessageCommandInvoker",
+    "MessageCommandMixin",
     "PlayerEntityMixin",
     "ServerPlayerEntityMixin"
   ],
